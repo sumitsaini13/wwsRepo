@@ -1,0 +1,24 @@
+.mainPublications {
+    margin: 20px !important;
+    border: solid 1px rgb(183, 178, 178) !important;
+}
+
+.glassCard {
+  border: 8px solid transparent;
+  border-radius: 12px;
+  background:     
+    linear-gradient(to right, #dfdbdb, #a6c8c8, #dee7f8) padding-box,
+    linear-gradient(to right, #c9d0cf, #bec0c3) border-box;
+  
+    background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-origin: border-box;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 0 5 0 5;
+}
+
+

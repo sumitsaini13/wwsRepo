@@ -1,0 +1,74 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "title": "Narratives of Cultural Violence in 1947 partition",
+      "author": "Dr. Shaifali Arora",
+      "content": "Environmental Upheaval and ethnic-linguistic shift",
+      "image": "/images/blog1.jpg",
+      "video": null,
+      "link": "https://www.tandfonline.com/eprint/NZX956GDKJ8E7KWHJDGB/full?target=10.1080/09584935.2025.2460616#abstract",
+      "date": "2025-03-03"
+    },
+    {
+      "id": 2,
+      "title": "Subregional Memories of an Undivided Rural Punjab",
+      "author": "Dr. Shaifali Arora",
+      "content": "Community, Culture and Identity among Hindus of Bahawalpur",
+      "image": "/images/blog2.jpg",
+      "video": "https://www.youtube.com/embed/ZArYEct5RWw",
+      "link": "https://www.tandfonline.com/doi/full/10.1080/00856401.2023.2276566",
+      "date": "2025-08-20"
+    },
+    {
+      "id": 3,
+      "title": "Ethnic Renewal",
+      "author": "Dr. Shaifali Arora",
+      "content": "Identity Formations among Current Generation Hindu Migrants of Punjab of 1947 Partition",
+      "image": "/images/blog3.jpg",
+      "video": "null",
+      "link": "https://rupkatha.com/V11/n3/v11n315.pdf",
+      "date": "2025-08-20"
+    },
+    {
+      "id": 4,
+      "title": "Designing a Visual Palimpsest through Film",
+      "author": "Dr. Shaifali Arora",
+      "content": "A Critical Examination of Jodhaa Akbar and the Nationalist Narrative",
+      "image": "/images/blog4.jpg",
+      "link": "https://www.tandfonline.com/doi/abs/10.1080/14746689.2019.1565327",
+      "video": "https://www.youtube.com/embed/example",
+      "date": "2025-08-20"
+    }
+  ],
+  "interviews": [
+  {
+    "id": 1,
+    "title": "Cultural Shifts in 20th Century Punjab",
+    "thumbnail": "/images/interview2.jpg",
+    "video": "https://www.youtube.com/embed/pcReNYzNTFg",
+    "date": "2025-06-01"
+  },
+  {
+    "id": 2,
+    "title": "Migration Studies Discussion",
+    "thumbnail": "/images/interview3.jpg",
+    "video": "https://www.youtube.com/embed/yUxbMgLWE2Y",
+    "date": "2025-07-15"
+  },
+  {
+    "id": 3,
+    "title": "1947 Partition of India",
+    "thumbnail": "/images/interview2.jpg",
+    "video": "https://www.youtube.com/embed/h2OjtZsasj4",
+    "date": "2025-07-15"
+  },
+  {
+    "id": 4,
+    "title": "Migration Studies",
+    "thumbnail": "/images/interview2.jpg",
+    "video": "https://www.youtube.com/embed/ijbt7dUxNTM",
+    "date": "2025-07-15"
+  }
+]
+}

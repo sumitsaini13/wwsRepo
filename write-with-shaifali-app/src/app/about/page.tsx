@@ -1,0 +1,108 @@
+"use client";
+
+import Image from "next/image";
+import { Playfair_Display } from "next/font/google";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+export default function Hero() {
+  return (
+    <main className={`min-h-screen bg-pink-50 text-gray-800 ${playfair.className}`}>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-rose-100 via-purple-400 to-rose-200 text-white py-20 px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Dr. Shaifali Arora
+          </h1>
+          <p className="text-lg md:text-xl leading-relaxed">
+            Ph.D. Scholar, IIT Indore <br />
+            Specializing in Colonial & Postcolonial South Asia, with a focus on
+            cultural and linguistic history of 20th century North India
+          </p>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="max-w-5xl mx-auto py-16 px-6">
+        <h2 className="text-3xl font-bold mb-6 text-center text-purple-800">
+          About
+        </h2>
+        <p className="text-lg leading-relaxed text-gray-700 text-center">
+          Dr. Shaifali Arora is a researcher and academic specializing in
+          colonial and postcolonial South Asia, with particular expertise in the
+          cultural and linguistic history of 20th century North India. She has
+          held multiple faculty positions and international research fellowships
+          that reflect her commitment to both teaching and scholarly work.
+        </p>
+      </section>
+
+      {/* Experience Section */}
+      <section className="bg-gradient-to-r from-rose-100 via-purple-200 py-16 px-6">
+        <h2 className="text-3xl font-bold mb-8 text-center text-purple-700">
+          Experience
+        </h2>
+        <div className="max-w-4xl mx-auto space-y-8">
+          {[
+            {
+              role: "Assistant Professor",
+              place: "IIIT-Vadodara",
+              duration: "Aug 2023 – Feb 2024 · 7 months",
+            },
+            {
+              role: "Assistant Professor",
+              place: "Amity University Punjab",
+              duration: "Oct 2022 – May 2023 · 8 months",
+            },
+            {
+              role: "Assistant Professor",
+              place: "Lovely Professional University",
+              duration: "Mar 2021 – May 2022 · 1 yr 3 mos",
+            },
+            {
+              role: "ASEM-DUO Fellow",
+              place: "Lancaster University, UK",
+              duration: "May 2020 – Feb 2021 · 10 months",
+            },
+            {
+              role: "Chegg Tutor",
+              place: "Chegg Inc.",
+              duration: "Apr 2016 – Jan 2021 · 4 yrs 10 mos",
+            },
+            {
+              role: "Doctoral Researcher",
+              place: "Indian Institute of Technology, Indore",
+              duration: "Jul 2015 – Dec 2020 · 5 yrs 6 mos",
+            },
+          ].map((exp, idx) => (
+            <div
+              key={idx}
+              className="border-l-4 border-purple-700 pl-4 bg-white/60 rounded-md hover:bg-rose-50 transition-colors shadow-sm"
+            >
+              <h3 className="text-xl font-semibold text-purple-700">{exp.role}</h3>
+              <p className="text-gray-600">{exp.place}</p>
+              <p className="text-sm text-gray-500">{exp.duration}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="bg-rose-50 py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-4 text-purple-700">Get in Touch</h2>
+        <p className="text-gray-700 mb-6">
+          For academic collaborations, talks, or inquiries, feel free to reach
+          out.
+        </p>
+        <a
+          href="mailto:shaifali.arora@email.com"
+          className="px-6 py-3 bg-rose-700 text-white rounded-md shadow-md hover:bg-rose-900 transition"
+        >
+          Contact Me
+        </a>
+      </section>
+    </main>
+  );
+}
